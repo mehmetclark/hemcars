@@ -1,0 +1,121 @@
+.anasayfa {
+    height: 100vh;
+ 
+
+}
+
+.col-3 div {
+    cursor: pointer;
+}
+
+.carousel-item {
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.uc {
+    position: absolute;
+    top: 500px;
+    bottom: 1px;
+    left: 1px;
+    right: 1px;
+    margin: auto;
+}
+.nav-item{
+    margin: 0px 10px 0px 10px;
+}
+
+.logo {
+    width: 190px;
+}
+ .urun img {
+    width: 300; height: 200px; background-color: grey;
+    margin: 20px 100px 20px 0px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.urun img:hover {
+    filter: brightness(0.5);
+}
+
+.row p {
+    margin-right: 50px;
+}
+
+.ortak img {
+    width: 270px; height: 200px; background-color: grey;
+    margin: 20px 100px 20px 0px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.ortak img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+
+
+  .bas {
+    --offset: 50px; 
+  
+    position: sticky;
+    bottom: 20px;      
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+  
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: rgb(60, 60, 60, 0.7);
+    white-space: nowrap;
+  }
+
+  html,
+body {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+    background-color: #343a40; /* Bg-dark */
+    color: #f8f9fa; /* text-light */
+    text-align: center;
+    padding: 1.5rem 0; /* py-3 */
+  }
+.vitrin {
+    width: 100%;
+}
+
+.araba .row {
+    padding: 50px;
+}
+
+.fiyat {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 8px;
+}
+.fiyat p {
+    padding: 15px;
+    font-size: 30px;
+}
+
+.aciklama {
+    background-color: rgb(118, 118, 118);
+    color: white;
+    margin: 50px;
+    font-size: 30px;
+    padding: 30px;
+    width: 70%;
+    border-radius: 4px;
+    margin: auto;
+}
+.bilgi p {
+    font-size: 10px;
+    }

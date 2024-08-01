@@ -1,0 +1,23 @@
+  /* Tablodaki satırlara hover efekti */
+  table tbody tr {
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Yumuşak geçiş efekti */
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1; /* Hover arka plan rengi */
+    transform: scale(1.02); /* Yumuşak büyütme efekti */
+}
+
+/* Satır vurgulama rengi */
+.highlight {
+    background-color: #f8f9fa; /* Vurgulama rengi */
+}
+
+/* Başlıkları merkezle */
+.text-center {
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+}
