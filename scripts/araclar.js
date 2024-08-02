@@ -1,4 +1,4 @@
-fetch('araclar.json')
+fetch('../araclar.json')
       .then(response => response.json())
       .then(data => {
         const container = document.getElementById('arac-container');
@@ -31,7 +31,7 @@ fetch('araclar.json')
           button.addEventListener('click', event => {
             const arac = JSON.parse(event.target.getAttribute('data-arac'));
             localStorage.setItem('selectedArac', JSON.stringify(arac));
-            window.location.href = 'sepet.html';
+            window.location.href = '../sepet.html';
           });
         });
       })
