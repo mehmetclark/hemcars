@@ -3,6 +3,11 @@
  
 
 }
+
+a {
+    cursor: pointer;
+}
+
 .col-3 a:hover {
     cursor: pointer; /* Hover durumunda pointer'ı gösterir */
   }
@@ -138,3 +143,9 @@
 body {
   scroll-behavior: smooth;
 }
+#sepet-baslik{
+    margin-top: 200px;
+  }
+  #sepet-container{
+    margin-bottom: 100px;
+  }
