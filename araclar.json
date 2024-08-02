@@ -1,6 +1,6 @@
 [
     {
-      "image": "/cars/1.jpg",
+      "image": "cars/1.jpg",
       "link": "sayfalar/1.html",
       "name": "MERCEDES-BENZ G SERISI 63 AMG",
       "kilometre": "7.041 km",
@@ -10,7 +10,7 @@
       "price": "15.242.534 ₺"
     },
     {
-      "image": "/cars/2.jpg",
+      "image": "cars/2.jpg",
       "link": "sayfalar/2.html",
       "name": "BMW M SERISI M8",
       "kilometre": "4.321 km",
@@ -20,7 +20,7 @@
       "price": "12.421.123 ₺"
     },
     {
-      "image": "/cars/3.jpg",
+      "image": "cars/3.jpg",
       "link": "sayfalar/3.html",
       "name": "FERRARI 458",
       "kilometre": "27.051 km",
@@ -30,7 +30,7 @@
       "price": "19.042.534 ₺"
     },
     {
-      "image": "/cars/4.jpg",
+      "image": "cars/4.jpg",
       "link": "sayfalar/4.html",
       "name": "PORSCHE 911",
       "kilometre": "57.241 km",
@@ -40,7 +40,7 @@
       "price": "16.150.534 ₺"
     },
     {
-      "image": "/cars/5.jpg",
+      "image": "cars/5.jpg",
       "link": "sayfalar/5.html",
       "name": "MERCEDES-BENZ AMG GT",
       "kilometre": "17.242 km",
@@ -50,7 +50,7 @@
       "price": "16.690.534 ₺"
     },
     {
-      "image": "/cars/6.jpg",
+      "image": "cars/6.jpg",
       "link": "sayfalar/6.html",
       "name": "RANGE ROVER 4.4",
       "kilometre": "58.241 km",
@@ -60,7 +60,7 @@
       "price": "12.042.534 ₺"
     },
     {
-      "image": "/cars/7.jpg",
+      "image": "cars/7.jpg",
       "link": "sayfalar/7.html",
       "name": "BOMBARDIER SPYDER ROADSTER",
       "kilometre": "6.041 km",
@@ -70,7 +70,7 @@
       "price": "1.042.520 ₺"
     },
     {
-      "image": "/cars/8.jpg",
+      "image": "cars/8.jpg",
       "link": "sayfalar/8.html",
       "name": "YAMAHA MT-10",
       "kilometre": "14.041 km",
@@ -80,7 +80,7 @@
       "price": "712.530 ₺"
     },
     {
-      "image": "/cars/9.jpg",
+      "image": "cars/9.jpg",
       "link": "sayfalar/9.html",
       "name": "BMW MOTORRAD",
       "kilometre": "7.041 km",
