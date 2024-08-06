@@ -149,3 +149,13 @@ body {
   #sepet-container{
     margin-bottom: 100px;
   }
+  .arac_kutu {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.col-3 {
+    max-width: 400px;
+    padding: 0 10px; /* Her bir div arasında boşluk bırakmak için */
+}
