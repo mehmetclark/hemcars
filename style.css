@@ -27,8 +27,6 @@ a {
     list-style: none; /* Madde işaretlerini kaldır */
     margin-bottom: 0.5rem; /* Liste öğeleri arasına boşluk ekle */
 }
-
-
 .carousel-item {
     width: 100vh;
     height: 100vh;
