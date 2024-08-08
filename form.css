@@ -1,34 +1,56 @@
 #login_bg {
-    width: 1024px;
-    border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1; /* Resmin arka planda olmasını sağlar */
-  }
+  width: 1400px;
+  height: 800px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  /* Resmin arka planda olmasını sağlar */
+}
+
+#overlay {
+  width: 1400px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  height: 800px;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Overlay'in resmin üzerinde olmasını sağlar */
+}
+
+
+.form-container {
+  height: 100vh;
+  /* Tam ekran yüksekliği */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-  .form-container {
-    height: 100vh; /* Tam ekran yüksekliği */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+}
+
+.form-container form {
   
-  .form-container form {
-    position: relative; /* Formun üstte olmasını sağlar */
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.8); /* Hafif şeffaf beyaz arka plan */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .form-group {
-    opacity: 1; /* Form elemanları tam opaklıkta */
-  }
-  
-  .form-control {
-    width: 300px; /* Input alanlarının genişliğini ayarlar */
-  }
-  
+  position: relative;
+  /* Formun üstte olmasını sağlar */
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Hafif şeffaf beyaz arka plan */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  opacity: 1;
+  /* Form elemanları tam opaklıkta */
+}
+
+.form-control {
+  width: 300px;
+  /* Input alanlarının genişliğini ayarlar */
+}
